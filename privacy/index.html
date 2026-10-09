@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#121628">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Public+Sans:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="/site.css">
+<title>Privacy Policy &middot; Ring for Jeeves</title>
+<meta name="description" content="How Jeeves, a private digital butler for the Mac, handles your data, including Google user data. Everything stays on your Mac.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Privacy Policy, Ring for Jeeves">
+<meta property="og:description" content="Jeeves runs entirely on your own Mac. We operate no servers that receive your data and cannot see it.">
+<meta property="og:image" content="https://ringforjeeves.com/icon.png">
+<meta property="og:url" content="https://ringforjeeves.com/privacy">
+<link rel="canonical" href="https://ringforjeeves.com/privacy">
+</head>
+<body>
+<main class="wrap">
+  <header class="letterhead rise">
+    <a href="/" class="crest" aria-label="Ring for Jeeves, home"><img src="/icon.png" width="80" height="80" alt="The Jeeves icon: a gold hexagon glowing on a navy ground"></a>
+    <p class="eyebrow">Ring for Jeeves</p>
+    <h1 style="font-size:clamp(2.4rem,8vw,3.5rem)">Privacy Policy</h1>
+    <p class="subtitle">What Jeeves keeps, where, and who ever sees it.</p>
+    <p class="updated">Last updated 9 October 2026</p>
+    <div class="hairline" role="presentation"></div>
+  </header>
+
+  <article class="doc rise">
+    <nav class="toc" aria-label="Contents">
+      <p>Contents</p>
+      <ol>
+        <li><a href="#who">Who we are</a></li>
+        <li><a href="#how">How Jeeves runs</a></li>
+        <li><a href="#stores">What Jeeves stores</a></li>
+        <li><a href="#google">Google user data</a></li>
+        <li><a href="#use">How we use it</a></li>
+        <li><a href="#sharing">Sharing and transfer</a></li>
+        <li><a href="#limited">Limited Use</a></li>
+        <li><a href="#other">Other services</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#deletion">Retention and deletion</a></li>
+        <li><a href="#children">Children</a></li>
+        <li><a href="#changes">Changes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </nav>
+
+    <h2 id="who">Who we are</h2>
+    <p>Jeeves is personal software made by Nishkarsh Sharma (&ldquo;we&rdquo;). It is given privately to a small number of friends and family, and is not offered to the public. You can reach us at <a href="mailto:support@ringforjeeves.com">support@ringforjeeves.com</a>.</p>
+
+    <h2 id="how">How Jeeves runs</h2>
+    <p>Jeeves runs entirely on your own Mac, as an app together with a background service. There is no Jeeves server and no Jeeves cloud account. We operate no servers that receive your data, and we cannot see any user&rsquo;s data.</p>
+    <p>Your licence is verified offline, on your Mac; nothing is sent to us to check it. Jeeves contains no analytics, telemetry, advertising or tracking of any kind.</p>
+
+    <h2 id="stores">What Jeeves stores, and where</h2>
+    <p>Everything Jeeves keeps lives in a folder on your Mac (<code>~/Library/Application Support/Jeeves</code>):</p>
+    <ul>
+      <li>His memory and notes about your affairs. These are plain-text files that you can open, read, correct or delete. They may include facts drawn from your mail and calendar, such as a booking date.</li>
+      <li>Your conversation history with him.</li>
+      <li>His settings.</li>
+      <li>Your Google sign-in tokens, held in files readable only by your macOS user account.</li>
+    </ul>
+    <p>If you switch on backups, a backup encryption key is kept in the macOS Keychain.</p>
+
+    <h2 id="google">Google user data</h2>
+    <p>Jeeves accesses Google data only after you connect your Google account and grant consent. It asks for two permissions (scopes):</p>
+    <table>
+      <thead><tr><th scope="col">Scope</th><th scope="col">What Jeeves does with it</th></tr></thead>
+      <tbody>
+        <tr><td><code class="scope">https://www.googleapis.com/<wbr>auth/<wbr>gmail.readonly</code></td><td>Reads your messages to notice bookings, deadlines, renewals, commitments and the like. It cannot send, delete or change mail.</td></tr>
+        <tr><td><code class="scope">https://www.googleapis.com/<wbr>auth/<wbr>calendar.events</code></td><td>Reads your events to prepare briefings, and may create or change events when you ask him to.</td></tr>
+      </tbody>
+    </table>
+    <p>You may also connect a separate work Google account. It is used read-only, for your work calendar and meeting preparation.</p>
+
+    <h2 id="use">How we use Google user data</h2>
+    <p>Solely to provide Jeeves&rsquo;s features to you: briefings, reminders, keeping track of commitments, and answering your questions.</p>
+    <ul>
+      <li>We do not sell it.</li>
+      <li>We do not use it for advertising.</li>
+      <li>We do not use it to build or train AI or machine-learning models, generalised or otherwise.</li>
+      <li>We do not transfer it to anyone except as described below.</li>
+      <li>No human, the developer included, reads it. It never reaches us.</li>
+    </ul>
+
+    <h2 id="sharing">Sharing and transfer</h2>
+    <p>To understand your messages and compose replies, Jeeves sends relevant content, which can include excerpts of your mail and calendar entries, to Anthropic&rsquo;s Claude. This is done through the Claude Code software running on your own Mac, using your own Claude subscription and account. That processing is governed by Anthropic&rsquo;s terms and <a href="https://www.anthropic.com/legal/privacy">privacy policy</a>, and by the settings of your own Claude account, including whether conversations may be used to improve Anthropic&rsquo;s models.</p>
+    <p>There is no other transfer of Google user data.</p>
+
+    <h2 id="limited">Limited Use</h2>
+    <div class="limited"><p>Jeeves&rsquo;s use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p></div>
+
+    <h2 id="other">Other services, if you turn them on</h2>
+    <p>These are off unless you enable them.</p>
+    <ul>
+      <li><strong>Weather.</strong> Open-Meteo receives only a latitude and longitude, with no name or account.</li>
+      <li><strong>Optional read-only connections</strong> that you configure with your own keys: Slack, Linear, Notion, GitHub, Booking.com, Google Hotels via SerpApi, and Google Maps. Each receives only the requests needed for that feature.</li>
+      <li><strong>Notifications to your iPhone</strong> go from your Mac directly to Apple&rsquo;s push service.</li>
+      <li><strong>Encrypted backups,</strong> if switched on, are written to a folder you choose, by default your own iCloud Drive. They are encrypted on your Mac with a recovery phrase that only you hold; Apple and we cannot read them.</li>
+    </ul>
+
+    <h2 id="security">Security</h2>
+    <p>Your data stays on your device. Its files are restricted to your user account, network connections use HTTPS, and backups are encrypted.</p>
+
+    <h2 id="deletion">Retention and deletion</h2>
+    <p>Data is kept on your Mac until you delete it.</p>
+    <h3>To revoke Google access</h3>
+    <p>Go to your Google Account, then Security, then Third-party apps &amp; services (<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>), choose Jeeves, and select Remove access.</p>
+    <h3>To remove Jeeves and everything he stores</h3>
+    <ol>
+      <li>In the app, open the gear menu, choose Jeeves&rsquo;s Service&hellip; and then Dismiss Jeeves, choosing to delete his household folder. (Alternatively, delete <code>~/Library/Application Support/Jeeves</code> yourself.)</li>
+      <li>Delete the app.</li>
+      <li>Delete any backup archives from your backup folder.</li>
+    </ol>
+
+    <h2 id="children">Children</h2>
+    <p>Jeeves is not directed at children, and is not intended for anyone under 16.</p>
+
+    <h2 id="changes">Changes to this policy</h2>
+    <p>If this policy changes, we will post the update on this page with a new date.</p>
+
+    <h2 id="contact">Contact</h2>
+    <p>Questions about privacy: <a href="mailto:support@ringforjeeves.com">support@ringforjeeves.com</a>.</p>
+  </article>
+</main>
+<footer><div class="in"><span>&copy; 2026 Nishkarsh Sharma</span><nav aria-label="Footer"><a href="/">Home</a><a href="/privacy">Privacy</a><a href="mailto:support@ringforjeeves.com">support@ringforjeeves.com</a></nav></div></footer>
+</body>
+</html>
